@@ -4,7 +4,7 @@
 - uv run ruff check - finds bugs and style problems
 - uv run ruff format - rewrite format layout (like prettier)
 - uv run - runs a tool inside .venv
-- uve run pytest - runs pytest
+- uv run pytest - runs pytest
 
 # Notes
 

@@ -1,0 +1,18 @@
+This is example text that should be skipped.
+This is example text that should be skipped.
+This is example text that should be skipped.
+
+
+
+
+
+
+
+
+
+SiteID	StateID	Latitude	Longitude	Top5_Cu
+This	row	should	be	skipped
+N.S	AL	3	4	N.S
+1	CO	3	4	6
+1	CO	3	4	N.S
+1	CO	3	4	<6
