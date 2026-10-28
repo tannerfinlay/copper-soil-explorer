@@ -2,14 +2,14 @@ import pytest
 
 
 def f():
-  raise SystemExit(1)
+    raise SystemExit(1)
+
 
 class TestEnv:
+    def test_one(self):
+        x = "this"
+        assert "h" in x
 
-  def test_one(self):
-    x = "this"
-    assert "h" in x
-
-  def test_two(self):
-    with pytest.raises(SystemExit):
-      f()
+    def test_two(self):
+        with pytest.raises(SystemExit):
+            f()
