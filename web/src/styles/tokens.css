@@ -1,0 +1,54 @@
+/* Color Themes */
+:root {
+  --surface-app: #F3F4F5;
+  --surface-panel: #FFFFFF;
+  --ink: #1C2024;
+  --ink-2: #4B535C;
+  --ink-3: #646C75;
+  --line: #C9CED3;
+  --line-strong: #8A939C;
+  /* Copper */
+  --accent: #A4481F;
+  --accent-weak: #F7E9E1;
+  --accent-ink: #7A3415;
+  --danger: #B42318;
+}
+
+/* Font Controls */
+:root {
+  --font-size-title: 20px;
+  --font-weight-title: 600;
+
+  --font-size-heading: 16px;
+  --font-weight-heading: 600;
+
+  --font-size-body: 16px;
+  --font-weight-body: 400;
+
+  --font-size-label: 14px;
+  --font-weight-label: 400;
+
+  --font-ui: "Public Sans", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", Menlo, monospace;
+
+  --line-height-title: 1.3
+  --line-height-header: 1.4
+  --line-height-label: 20px
+}
+
+/* Shape Controls */
+:root {
+  --radius-controls: 4px;
+  --radius-popover: 6px;
+}
+
+/* Spacing */
+:root {
+  /* Base spacing unit multiplier (4px) */
+  --spacing-1: 0.25rem;  /* 4px */
+  --spacing-2: 0.5rem;   /* 8px */
+  --spacing-3: 0.75rem;  /* 12px */
+  --spacing-4: 1rem;     /* 16px */
+  --spacing-6: 1.5rem;   /* 24px */
+  --spacing-8: 2rem;     /* 32px */
+}
