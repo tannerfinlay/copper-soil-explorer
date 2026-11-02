@@ -1,0 +1,30 @@
+.app {
+  display: grid;
+  height: 100dvh;
+  grid-template-columns: 340px 1fr;
+  grid-template-rows: 48px 1fr 32px;
+  grid-template-areas:
+    "header header"
+    "sidebar map"
+    "sidebar status";
+}
+
+.header {
+  grid-area: header;
+}
+
+.map {
+  grid-area: map;
+  min-height: 0;
+  min-width: 0;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.status {
+  grid-area: status;
+}

@@ -1,0 +1,21 @@
+.panel {
+  padding: var(--spacing-3);
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-panel);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+
+.panelHeader {
+  margin-bottom: var(--spacing-2);
+}
+
+.dataCitation {
+  margin-top: auto;
+}
