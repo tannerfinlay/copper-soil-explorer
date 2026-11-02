@@ -1,0 +1,15 @@
+.panel {
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: row;
+  padding-inline: var(--spacing-3);
+  align-items: center;
+  gap: var(--spacing-4);
+  background: var(--surface-panel);
+}
+
+.values {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2);
+}

@@ -1,0 +1,32 @@
+.title {
+  padding-right: var(--spacing-2);
+}
+
+.panel {
+  padding-inline: var(--spacing-3);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-panel);
+}
+
+.aboutSection {
+  align-items: center;
+  margin-left: auto;
+  display: flex;
+  gap: var(--spacing-4);
+}
+
+.aboutButton {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.aboutButton:hover {
+  color: var(--accent);
+}
